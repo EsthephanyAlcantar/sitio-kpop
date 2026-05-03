@@ -2,4 +2,4 @@
 nixPkgs = ["caddy"]
 
 [start]
-cmd = "caddy file-server --root . --listen :3000"
+cmd = "caddy file-server --listen :3000"
