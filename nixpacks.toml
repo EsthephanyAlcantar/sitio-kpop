@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["caddy"]
+nixPkgs = ["nodejs"]
 
 [start]
-cmd = "caddy file-server --root /app --listen :3000"
+cmd = "npx serve . -l 3000"
